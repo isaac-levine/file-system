@@ -1,4 +1,4 @@
-# Project 2: File System
+# File System
 
 This is the starter code for [Project 2](https://khoury-cs3650.github.io/p2.html). The following contents are provided:
 
@@ -18,6 +18,3 @@ $ sudo apt-get install libtest-simple-perl
 ```
 
 Then using `make test` will run the provided tests.
-
-
-# file-system
