@@ -1,0 +1,17 @@
+Part 2 -- focusing on files under the size of 4KB and not using indirect blocks...
+
+- 2 bitmaps on block 0 
+    - 1 for blocks
+    - 1 for inodes (block 0 + side of block bitmap)
+
+
+- 256 inodes (bitmap in block 0 says which are free/occupied)
+
+- 256 data blocks (bitmap in block 0 says which are free/occupied)
+
+
+
+
+
+
+- Blocks bitmap is started at block 0 every time...
